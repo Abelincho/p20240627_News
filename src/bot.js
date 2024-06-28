@@ -3,10 +3,10 @@ import { Telegraf } from "telegraf";
 import elPaisSeeker from "./seekers/elPaisSeeker.js";
 import laVanguardiaSeeker from "./seekers/laVanguardiaSeeker.js";
 
-// loadEnvFile();
+loadEnvFile();
 
-// const bot = new Telegraf(process.env.BOT_TOKEN);
-const bot = new Telegraf('7238917097:AAHQyG1lXPSNptRy7soJCG06gztAL5YjNXU');
+const bot = new Telegraf(process.env.BOT_TOKEN);
+
 
 bot.command('read', async (ctx) => {
     let result = ['This article is not supported yet.'];
