@@ -2,7 +2,7 @@ import { JSDOM } from 'jsdom';
 import fetch from 'node-fetch';
 import fs from 'fs';
 
-const url = 'https://www.lavanguardia.com/internacional/20240628/9766108/biden-trump-debate-cnn.html';
+// const url = 'https://www.lavanguardia.com/internacional/20240628/9766108/biden-trump-debate-cnn.html';
 
 const laVanguardiaSeeker = async (url) => {
     const response = await fetch(url);
@@ -32,6 +32,6 @@ const laVanguardiaSeeker = async (url) => {
 
 };
 
-laVanguardiaSeeker(url);
+// laVanguardiaSeeker(url);
 
 export default laVanguardiaSeeker;
