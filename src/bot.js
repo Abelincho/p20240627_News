@@ -5,7 +5,8 @@ import laVanguardiaSeeker from "./seekers/laVanguardiaSeeker.js";
 
 loadEnvFile();
 
-const bot = new Telegraf(process.env.BOT_TOKEN);
+// const bot = new Telegraf(process.env.BOT_TOKEN);
+const bot = new Telegraf('7238917097:AAHQyG1lXPSNptRy7soJCG06gztAL5YjNXU');
 
 bot.command('read', async (ctx) => {
     let result = ['This article is not supported yet.'];
