@@ -3,7 +3,7 @@ import { loadEnvFile } from "process";
 import elPaisSeeker from "./seekers/elPaisSeeker.js";
 import laVanguardiaSeeker from "./seekers/laVanguardiaSeeker.js";
 
-loadEnvFile('../.env');
+loadEnvFile();
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
